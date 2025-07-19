@@ -29,7 +29,7 @@ function Home() {
                 <Type />
               </div>
               <h2>I’m a pre-final year Computer Science student passionate about cloud computing, web development, and AI. Eager to solve real-world problems
-               through innovative technology</h2>
+               through technologies.</h2>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>

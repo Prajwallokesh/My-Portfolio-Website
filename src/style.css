@@ -143,8 +143,9 @@ button:focus {
 @media (max-width: 767px) {
   .navbar {
     padding: 0.3rem 0rem !important;
-    font-size: 0.7rem !important;
-    background-color: #181a27 !important;
+    font-size: 1.3rem !important;
+    background-color: #1e1827 !important;
+    text-align: left;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -154,8 +155,12 @@ button:focus {
 .card-body{
   padding: 0% !important;
   margin: 0% !important;
+  text-align: justify !important;
 }
-}
+.card-body p{
+  text-align: justify !important;
+}};
+
 /* Responsive avatar styles */
 .responsive-avatar {
   transition: all 0.3s ease;
@@ -417,12 +422,22 @@ button:focus {
 
 @media (max-width: 480px) {
   .home-about-description h1 {
-    font-size: 5.8em !important;
+    font-size: 2.4em !important;
   }
   
   .home-about-body {
     font-size: 1em !important;
   }
+  .home-about-section p{
+    text-align: justify !important;
+    font-size: 25px;
+    padding-left: 50px;
+   }
+   p.home-about-body{
+    text-align: justify !important;
+    font-size: 1005px;
+    padding-left: 25px;
+   }
 }
 
 .home-about-body {
@@ -641,6 +656,7 @@ button:focus {
   padding-top: 20px;
   line-height: 35px;
   padding-left: 45px;
+  text-align: left !important;
 }
 
 /* Mobile responsiveness for home content */
