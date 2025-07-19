@@ -142,16 +142,20 @@ button:focus {
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 0.5rem 0rem !important;
-    font-size: 1.4rem !important;
+    padding: 0.3rem 0rem !important;
+    font-size: 0.7rem !important;
     background-color: #181a27 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
   }
 }
-
-
+@media (max-width: 767px) {
+.card-body{
+  padding: 0% !important;
+  margin: 0% !important;
+}
+}
 /* Responsive avatar styles */
 .responsive-avatar {
   transition: all 0.3s ease;
@@ -179,6 +183,7 @@ button:focus {
     padding-top: 1em !important;
   }
 }
+
 
 .navbar-brand span{
   color: #cd5ff8!important;
@@ -412,7 +417,7 @@ button:focus {
 
 @media (max-width: 480px) {
   .home-about-description h1 {
-    font-size: 1.8em !important;
+    font-size: 5.8em !important;
   }
   
   .home-about-body {

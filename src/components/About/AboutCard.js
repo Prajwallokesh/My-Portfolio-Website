@@ -6,7 +6,7 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        
+        <blockquote>
           <p style={{ textAlign: "left",fontSize:"19px" }}>
             Hi Everyone, I am <span className="purple">Prajwal Lokesh </span>
             from <span className="purple"> Hassan, Karnataka, India.</span><br />
@@ -33,7 +33,7 @@ function AboutCard() {
             "Life as no CTRL+Z!"{" "}
           </p>
           
-       
+       </blockquote>
       </Card.Body>
     </Card>
   );
