@@ -422,21 +422,24 @@ button:focus {
 
 @media (max-width: 480px) {
   .home-about-description h1 {
-    font-size: 2.4em !important;
+    font-size: 2.0em !important;
   }
   
   .home-about-body {
     font-size: 1em !important;
   }
   .home-about-section p{
-    text-align: justify !important;
-    font-size: 25px;
-    padding-left: 50px;
+   
+    font-size: 22px;
+    padding-left: 0px;
    }
    p.home-about-body{
+    font-size: 20px !important;
     text-align: justify !important;
-    font-size: 1005px;
-    padding-left: 25px;
+    padding-left: 0px !important;
+   }
+   .quote-card-view p{
+    font-size: 20px !important;
    }
 }
 
@@ -652,11 +655,11 @@ button:focus {
 /* About */
 /* --------- */
 .home-content h2{
-  font-size: 25px;
+  font-size: 24px;
   padding-top: 20px;
   line-height: 35px;
   padding-left: 45px;
-  text-align: left !important;
+  text-align: justify !important;
 }
 
 /* Mobile responsiveness for home content */
@@ -695,7 +698,8 @@ button:focus {
 
 @media (max-width: 480px) {
   .home-content h2 {
-    font-size: 16px !important;
+    font-size: 17px !important;
+    text-align: justify !important;
     line-height: 24px !important;
   }
   

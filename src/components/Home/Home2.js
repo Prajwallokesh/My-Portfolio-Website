@@ -18,37 +18,40 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+            <div className="homeinfo" style={{fontSize:"22px"}}>
+
+            <p className="home-about-body" style={{ textAlign: "left", lineHeight:"2rem" ,paddingLeft:"0px" }}>
               I fell in love with programming and I’ve definitely learned a thing or two along the way… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
-              <i>
+             
                 <b className="purple"> Python, C, and Java. </b>
-              </i>
+              
               <br />
               <br />
-              My fields of interest lie in 
-              <i>
-                <b className="purple">Web Development and Artificial Intelligence </b> and
-                also in {" "}
+              My fields of interest lie in  the 
+             
+                <b className="purple"> Web Development and AI </b> and
+                also in the {" "}
                 <b className="purple">
-                  Cloud Computing and Database Management Systems.
+                  Cloud Computing  and Data structure.
                 </b>
-              </i>
+          
               <br />
               <br />
               Whenever possible, I channel my passion into building<b className="purple"></b> and
-              <i>
+              
                 <b className="purple">
                   {" "}
                   full-stack solutions using cloud services
                 </b>
-              </i>
+              
               &nbsp; and
-              <i>
+              
                 <b className="purple"> Artificial Intelligence.</b>
-              </i>
+             
             </p>
+            </div>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

@@ -21,14 +21,14 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                I'm
                 <strong className="main-name"> Prajwal Lokesh</strong>
               </h1>
 
               <div className="type-container" style={{ paddingLeft:45,fontWeight:600, textAlign: "left" }}>
                 <Type />
               </div>
-              <h2>I’m a pre-final year Computer Science student passionate about cloud computing, web development, and AI. Eager to solve real-world problems
+              <h2 style={{ textAlign:"justify"}}>I'm a Pre-final year Computer Science and Engineering student passionate about cloud computing, web development, and AI. Eager to solve the real-world problems
                through technologies.</h2>
             </Col>
 
