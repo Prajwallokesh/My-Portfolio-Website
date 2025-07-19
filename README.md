@@ -23,7 +23,7 @@
     <a href="https://github.com/prajwallokesh/my-portfolio-website/issues">Request Feature</a>
 </h3>
 
-## TL;DR
+## Repo
 
 You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Prajwal Lokesh](https://github.com/prajwallokesh/my-portfolio-website). Thanks!
 
